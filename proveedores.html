@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proveedores</title>
+
+  <link rel="stylesheet" href="/css/estiloAdmin.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <header class="header">
+
+    <div class="cajaIzquierda">
+      <div class="iconIzquierdo">
+        <img src="./img/user.png" height="60px">
+      </div>
+
+      <div class="infoUser">
+        <p>XXXXXXXXXX</p>
+        <p>ADMINISTRADOR</p>
+      </div>
+
+    </div>
+
+    <div class="iconDerecho">
+      <a href=""><img src="./img/salida.png" height="40px"></a>
+    </div>
+  </header>
+ 
+  <main>
+    <br>
+    <div class="volver">
+        <a href="inicioAdmin.html"><img src="./img/volver.png" alt="" height="40px"></a>
+    </div>
+    <div class="titulo">
+        <h1>FACTURACIÓN PROVEEDORES</h1>
+    </div>
+    <br>
+    <div class="tabla">
+        <table>
+            <tr>
+              <th>CÓDIGO</th>
+              <th>PROVEEDOR</th>
+              <th>FECHA FACTURACIÓN</th>
+              <th>ACCIONES</th>
+            </tr>
+            <tr>
+              <td>1141774</td>
+              <td>Juan Perez</td>
+              <td>22/02/2023</td>
+                <td class="detalles">
+
+                  <input type="checkbox" id="btn-modal">
+                    <label for="btn-modal" class="lbl-modal"><img src="./img/detalles.png" height="30px"></label>
+                      <div class="modal">
+
+                          <div class="contenedor">
+                              <header class="headerModal">Información de Factura Proveedor</header>
+                              <label for="btn-modal">X</label>
+                              <div>Contenido</div>
+                          </div>
+
+                      </div>
+                  </td>
+            </tr>
+        </table>
+
+        </div>
+    </div>
+
+
+
+
+  </main>
+
+</body>
+
+</html>
